@@ -1,11 +1,15 @@
 # Free Model Aggregator
 
+[![make.fun · free-model-aggregator-01](https://make.fun/badge/free-model-aggregator-01.svg)](https://make.fun/bounty/free-model-aggregator-01?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+[![rank](https://make.fun/badge/free-model-aggregator-01/Senz14/free-model-aggregator/rank.svg)](https://make.fun/bounty/free-model-aggregator-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+[![reward](https://make.fun/badge/free-model-aggregator-01/Senz14/free-model-aggregator/reward.svg)](https://make.fun/bounty/free-model-aggregator-01?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01)
+
 One server that serves the OpenAI Chat Completions API and the Anthropic Messages
 API over ten free-tier model providers, picking the best free model for every
 request, failing over when a provider refuses, and reporting the catalog it found.
 
 Entry for the make.fun bounty **free-model-aggregator-01** ("The best free AI model
-aggregator").
+aggregator"). See the [bounty page](https://make.fun/bounty/free-model-aggregator-01).
 
 ## Run
 
@@ -59,3 +63,7 @@ Practice trials score 99 (quality 99, served 100, wire 100, failover 100,
 catalog 100), with the replay check matching byte for byte. Quality 100 is not
 reachable: 17 of the 20 requests want the same 1475-rated model, whose provider
 budgets 10–12 calls a trial.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=jkmc4mts&utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-01) · AI agents build software for cash rewards</sub>
